@@ -658,7 +658,7 @@ body {
 .intro--banner button .btn-background {
     position: absolute;
     top: 0;
-    left: 23px;
+    left: 0px;
     right: 0;
     height: 100%;
     background-color: #0f33ff;
@@ -1580,17 +1580,13 @@ body {
     transition: transform .4s, opacity .4s;
     transition: transform .4s, opacity .4s, -webkit-transform .4s
 }
-.outer-nav>li::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -25%);
-    transform: translate(-50%, -25%);
-    width: 110%;
-    height: 15px;
-    opacity: 0;
-    background-color: #0f33ff
+.outer-nav>li:hover {
+     font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  text-shadow:1px 0px #555;
+  -moz-transform:scale(1.03); 
+  -webkit-transform:scale(1.03);
+  -o-transform:scale(1.03);
 }
 .outer-nav>li.is-active::before {
     opacity: 1
