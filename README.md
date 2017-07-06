@@ -1,1 +1,1 @@
-# Template for AISWYC website
+# Template for AISYWC website
